@@ -1,4 +1,4 @@
-inputNum = int(input('숫자를 입력하세요 : '))
+inputNum = int(input("숫자를 입력하세요 : "))
 
 result = 0
 
@@ -8,6 +8,6 @@ for i in range(1, inputNum + 1):
             result += j
 
     if result == i:
-        print('%d' % (result))
+        print("%d" % (result))
 
     result = 0
